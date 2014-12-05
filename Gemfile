@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
+# Twitter Bootstrap Gem
+gem 'bootstrap-sass', '~> 3.3.1'
+
+# Autoprefixer - needed for Twitter Bootstrap
+gem 'autoprefixer-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
