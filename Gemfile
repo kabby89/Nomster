@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # will_paginate gem
 gem 'will_paginate', '~> 3.0.5'
 
+# Devise authentication gem
+gem 'devise', '>= 3.2.4'
+
 # Twitter Bootstrap Gem
 gem 'bootstrap-sass', '~> 3.3.1'
 
