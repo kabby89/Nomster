@@ -6,6 +6,9 @@ gem 'will_paginate', '~> 3.0.5'
 # Twitter Bootstrap Gem
 gem 'bootstrap-sass', '~> 3.3.1'
 
+# Simple form Gem
+gem 'simple_form'
+
 # Autoprefixer - needed for Twitter Bootstrap
 gem 'autoprefixer-rails'
 
