@@ -1,5 +1,3 @@
 class Place < ActiveRecord::Base
-	def self.per_page 
-		10
-	end
+	belongs_to :user
 end
