@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# Protect myself with Figaro
+gem "figaro", ">=1.0.0"
+
+# Reverse geocoding with geocode!
+gem "geocoder"
+
 # will_paginate gem
 gem 'will_paginate', '~> 3.0.5'
 
