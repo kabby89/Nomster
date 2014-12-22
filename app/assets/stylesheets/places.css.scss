@@ -94,3 +94,15 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+.gallery {
+	padding:5px; 
+	margin:5px; 
+	border:1px solid #ccc; 
+	display:block; 
+	max-width:220px;
+	min-width: 200px; 
+	float:left;	
+}
+.gallery-image{
+	max-width: 200px;
+}

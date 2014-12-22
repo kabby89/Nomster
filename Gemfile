@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# Carrier Wave to work with AWS S3
+gem 'fog', '~>1.3.1'
+
+# Carrier Wave Image upload
+gem 'carrierwave'
+
 # Protect myself with Figaro
 gem "figaro", ">=1.0.0"
 
