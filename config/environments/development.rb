@@ -5,6 +5,18 @@ Nomster::Application.configure do
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
   config.action_mailer.default_url_options = { :host => 'localhost:3030' }
+  config.action_mailer.delivery_method = :stmp
+  # I didn't set this to up to actually send emails as my email uses 2-step auth
+  # and I was lazy and didn't want to set up another one. 
+  config.action_mailer.delivery_settings = {
+    address: "stmp.gmail.com",
+    port: 587,
+    domain: "example.com",
+    authentication: "plain",
+    enable_starttls_auto: true,
+    user_name: ENV['GMAIL_ADDRESS'],
+    password: ENV['GMAIL_PASSWORD']
+  }
   
   config.cache_classes = false
 
