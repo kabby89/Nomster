@@ -111,9 +111,9 @@
 </div>
 
 
-
+<div class="col-sm-offset-1">
 <% @place.comments.each do |comment| %>
-	<div class="col-xs-12 col-sm-5 col-sm-offset-1 spice-box">
+	<div class="col-xs-12 col-sm-5">
 		<blockquote>
 			<% if comment.humanized_rating.present? %>
 				<b><%= comment.humanized_rating %></b> -
@@ -123,3 +123,4 @@
 		</blockquote>
 	</div>
 <% end %>
+</div>
